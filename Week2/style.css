@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+/*  */
+body {
+  font-family: 'Noto Serif TC', serif;
+  line-height: 1.5;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+/*  */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*  */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 84px;
+  margin-top: 56px;
+}
+
+.banner {
+  height: 958px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-info {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75;
+  white-space: nowrap;
+  width: 304px;
+  padding: 308px 0;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-style: italic;
+
+  padding-bottom: 32px;
+}
+
+.social-media {
+  margin-top: 40px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* About */
+.aboutMe img {
+  margin: 40px auto 0 auto;
+  padding: 0 14px;
+}
+
+.aboutMe ul {
+  text-align: center;
+}
+
+.aboutMe li {
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.personal-info {
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+.personal-info li:nth-child(1) {
+  margin-bottom: 4px;
+}
+
+.personal-info li:nth-child(2) {
+  margin-bottom: 8px;
+}
+
+hr {
+  width: 384px;
+  border: 1px solid #000000;
+}
+
+.exp {
+  margin-top: 28px;
+  margin-bottom: 56px;
+}
+
+.exp li:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #891818;
+  border: 1px solid #891818;
+  margin-right: 16px;
+}
+
+/* Brand */
+.brand {
+  background-color: #000000;
+  border: 1px solid #707070;
+  color: #fff;
+  text-align: center;
+}
+
+.brand h3 {
+  font-size: 24px;
+  line-height: 42px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.brand p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+  margin-bottom: 68px;
+}
+
+.brand-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 24px;
+
+  margin-bottom: 160px;
+}
+
+/* Album */
+.album {
+  text-align: center;
+}
+
+.album>.container>p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+}
+
+.works p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+/* Contact */
+.footer {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid #000000;
+  margin-top: 144px;
+  padding-bottom: 64px;
+}
+
+.footer h2 {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.contact-me li {
+  font-size: 24px;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-me li:nth-child(1) {
+  margin-bottom: 16px;
+}
