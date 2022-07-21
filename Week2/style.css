@@ -262,7 +262,6 @@ hr {
 }
 
 .circle::before {
-  /* display: inline-block; */
   content: "";
   width: 22px;
   height: 22px;
