@@ -246,6 +246,7 @@ hr {
 }
 
 .exp {
+  text-align: center;
   margin-top: 28px;
   margin-bottom: 56px;
 }
@@ -255,6 +256,23 @@ hr {
 }
 
 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle::before {
+  /* display: inline-block; */
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+  margin-right: 16px;
+}
+
+/* 
+.circle {
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -262,7 +280,7 @@ hr {
   background-color: #891818;
   border: 1px solid #891818;
   margin-right: 16px;
-}
+} */
 
 /* Brand */
 .brand {
