@@ -328,6 +328,10 @@ header {
   overflow: hidden;
 }
 
+.logo a {
+  display: block;
+  height: 100%;
+}
 
 /* Property of Part */
 
@@ -706,7 +710,6 @@ footer {
   }
 
 }
-
 
 @media(min-width: 375px) {
 
