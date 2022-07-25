@@ -476,7 +476,7 @@ footer {
 }
 
 /* 響應式部分 RWD PART */
-@media(max-width: 768px) {
+@media(max-width: 992px) {
   .container {
     max-width: 696px;
   }
@@ -560,7 +560,7 @@ footer {
   } */
 }
 
-@media(max-width: 375px) {
+@media(max-width: 767px) {
   .fz-16 {
     font-size: 16px;
   }
@@ -711,7 +711,7 @@ footer {
 
 }
 
-@media(min-width: 376px) {
+@media(min-width: 767px) {
 
   .hidden-2 {
     display: none;
