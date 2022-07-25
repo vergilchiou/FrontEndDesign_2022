@@ -478,8 +478,10 @@ footer {
 /* 響應式部分 RWD PART */
 @media(max-width: 992px) {
   .container {
-    max-width: 100%;
+    max-width: 90%;
   }
+
+
 
   .banner {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
@@ -572,7 +574,7 @@ footer {
     }
 
     .container {
-      max-width: 348px;
+      max-width: 100%;
     }
 
     .rwd-375 {
@@ -586,12 +588,12 @@ footer {
 
     .header-nav {
       flex-wrap: wrap;
-      width: 375px;
+      width: 100%;
       justify-content: start;
     }
 
     .header-nav>li {
-      width: 187px;
+      width: 50%;
       font-size: 16px;
       padding: 12px 0;
       text-align: center;
