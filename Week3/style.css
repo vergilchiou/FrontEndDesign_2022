@@ -573,7 +573,7 @@ footer {
       padding-top: 40px;
     }
 
-    .container {
+    .container-header {
       max-width: 100%;
     }
 
@@ -611,6 +611,10 @@ footer {
     /* SERVICE */
     .service-card {
       max-width: 100%;
+    }
+
+    .jc-c-sm {
+      justify-content: center;
     }
 
     .service-items {
