@@ -149,6 +149,7 @@ table {
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 a {
@@ -391,7 +392,8 @@ header {
   background-position: center;
 }
 
-.co-brand-card>img {
+.img-double,
+.img-youth {
   width: 648px;
 }
 
@@ -481,8 +483,6 @@ footer {
     max-width: 90%;
   }
 
-
-
   .banner {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
   }
@@ -520,7 +520,8 @@ footer {
     background-size: cover;
   }
 
-  .co-brand-card>img {
+  .img-double,
+  .img-youth {
     width: 696px;
   }
 
