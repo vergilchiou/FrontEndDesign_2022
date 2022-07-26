@@ -162,6 +162,10 @@ a {
 }
 
 /*  */
+.italic {
+  font-style: italic;
+}
+
 
 .container {
   max-width: 1200px;
@@ -171,7 +175,6 @@ a {
 h2 {
   text-align: center;
   font-size: 64px;
-  font-style: italic;
   font-weight: 500;
   line-height: 84px;
   margin-top: 56px;
@@ -182,6 +185,10 @@ h2 {
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
   background-position: center center;
   background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-info {
@@ -190,15 +197,11 @@ h2 {
   font-weight: bold;
   line-height: 1.75;
   white-space: nowrap;
-  width: 304px;
-  padding: 308px 0;
 }
 
 h1 {
   font-size: 80px;
   line-height: 106px;
-  font-style: italic;
-
   padding-bottom: 32px;
 }
 
@@ -210,6 +213,12 @@ h1 {
 }
 
 /* About */
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .aboutMe img {
   margin: 40px auto 0 auto;
   padding: 0 14px;
@@ -223,13 +232,15 @@ h1 {
   white-space: nowrap;
   font-size: 24px;
   line-height: 36px;
-  font-style: italic;
   font-weight: bold;
 }
 
 .personal-info {
   padding-top: 20px;
   padding-bottom: 24px;
+
+  /* width: 384px;
+  border-bottom: 1px solid #000; */
 }
 
 .personal-info li:nth-child(1) {
@@ -240,15 +251,18 @@ h1 {
   margin-bottom: 8px;
 }
 
-hr {
+/* hr {
   width: 384px;
   border: 1px solid #000000;
-}
+} */
 
 .exp {
-  text-align: center;
-  margin-top: 28px;
+  margin-top: 24px;
   margin-bottom: 56px;
+  padding-top: 28px;
+
+  width: 384px;
+  border-top: 1px solid #000;
 }
 
 .exp li:not(:last-child) {
@@ -331,7 +345,7 @@ hr {
   gap: 48px 24px;
 }
 
-.works p {
+.works h3 {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -355,9 +369,13 @@ hr {
 .contact-me li {
   font-size: 24px;
   line-height: 1.5;
-  font-style: italic;
+
   font-weight: 700;
   text-align: center;
+}
+
+.contact-me a {
+  color: #fff;
 }
 
 .contact-me li:nth-child(1) {
